@@ -20,7 +20,7 @@ int main() {
     };
 
     auto begin_uppercase = [](const std::string& str) {
-        if (str[0] < 'Z' && str[0] > 'A') return true;
+        if (str[0] <= 'Z' && str[0] >= 'A') return true;
         return false;
     };
 
