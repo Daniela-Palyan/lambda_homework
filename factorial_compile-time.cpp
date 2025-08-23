@@ -13,5 +13,7 @@ int main() {
     std::cout << "factorial of 3: " << fact(3) << std::endl;
     std::cout << "factorial of 5: " << fact(5) << std::endl;
 
+    static_assert(fact(5) == 120);
+
     return 0;
 }
